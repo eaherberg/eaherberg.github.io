@@ -1,0 +1,12 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.box {
+    text-align: center;
+    margin: 200px 600px;
+    background: white;
+    border-radius: 20px;
+    height: 600px;
+    width: 40%;
+}

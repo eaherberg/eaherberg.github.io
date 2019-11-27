@@ -1,0 +1,125 @@
+.li_main img {
+    margin: 2em 0;
+}
+
+#headline {
+    text-align: center;
+    margin: 100px 0;
+}
+
+#headline h1 {
+    font-size: 60px;
+}
+
+#headline h1 span {
+    position: relative;
+}
+
+#headline h3 {
+    color: #686e7d;
+}
+
+#headline h1 span:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 0;
+    bottom: 5px;
+    width: auto;
+    margin: 0 auto;
+    height: 20%;
+    background: rgba(0, 140, 201, .5);
+}
+
+.li_main {
+    margin: 0 150px;
+        
+}
+
+.li_main p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em
+}
+
+.li_main h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 1em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.li_top {
+    text-align: center;
+    
+}
+
+.old {
+    text-align: center;
+    word-spacing: 2em;
+}
+
+.old img {
+    
+    height: 600px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flows img {
+    text-align: center;
+    width: 100%;
+}
+
+.li_workflow {
+    text-align: center;
+}
+
+.li_workflow img {
+    width: 1200px;  
+}
+
+.button {
+    text-align: center;
+}
+
+.lmo_btn {
+    background-color: #28c28e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 170px;
+    transition: .5s;
+}
+
+.lmo_btn:hover {
+    background-color: #28c28e;
+    opacity: .6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+}

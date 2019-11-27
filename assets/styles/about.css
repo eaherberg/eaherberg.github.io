@@ -1,0 +1,231 @@
+#top_abt {
+    color: #4f5bd5;
+    opacity: 1;
+    font-weight: 600;
+}
+
+#headline {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#headline h1 {
+    font-size: 60px;
+}
+
+#headline h1 span {
+    position: relative;
+}
+
+#headline h1 span:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 0;
+    bottom: 5px;
+    width: auto;
+    margin: 0 auto;
+    height: 20%;
+    background: rgba(123, 237, 198, .5);
+}
+
+.about_me {
+    margin: 150px 150px;
+    font-size: .8em;
+}
+
+.about_me h1 {
+    font-size: 2em;
+}
+
+.about_me p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    line-height: 1.7em;
+    font-family: 'Playfair Display', serif;
+}
+
+.about_me em {
+  color: #a5b3be;
+}
+
+.about_me a {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.about_me a span {
+    display: none;
+    position: absolute;
+    right: 100%;
+    color: #00aadd;
+}
+
+.about_me a::before {
+    content: '';
+    height: 20%;
+    background: #7bedc6;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0.09em;
+    left: -0.2em;
+    opacity: .5;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.about_me a:hover {
+  border-color: #00aadd;
+}
+
+.about_me a:hover span {
+
+}
+
+.about_me a:hover::before {
+    opacity: .5;
+    height: 70%;
+    width: 100%;
+}
+
+#intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 140%;
+}
+
+.me p {
+    margin-left: 150px;
+}
+
+.me {
+    float: right;
+    margin-left: 50px;
+    margin-right: 150px;;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-size: 400px auto;
+    background: url(/assets/images/about/erik_hero.jpg) no-repeat;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-position: center;
+}
+
+.me:hover {
+    background: url(/assets/images/about/erik_ollie.jpg) no-repeat;
+    background-size: 600px auto;
+    background-position: bottom center;
+    cursor: crosshair;
+}
+
+.me img {
+    border-radius: 25px;
+}
+
+.me img:hover {
+    opacity: 0;
+}
+
+.work_hist {
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+    height: 400px;
+    padding-top: 2em;
+}
+
+.work_hist h2 {
+    padding-bottom: 2em;
+}
+
+table {
+    table-layout: auto;
+}
+
+td {
+    white-space: nowrap;
+    width: 600px;
+}
+
+.career img {
+    padding-bottom: 1em;
+    height: 80px;
+    width: auto;
+    text-align: center;
+}
+
+#uw img {
+    height: 70px;
+    padding-bottom: 1.6em;
+}
+
+#rylem img {
+      -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #7f7f7f;
+}
+
+#date {
+    color: #2f3541;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+#date {
+    position: relative;
+}
+
+#date:after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    right: 0;
+    bottom: .9em;
+    width: 25%;
+    margin: 0 auto;
+    height: 12%;
+    background: rgba(123, 237, 198, .5);
+}
+
+
+.video {
+    text-align: center;
+    margin-top: 100px;
+}
+
+iframe {
+    height: 522px;
+    width: 928px;
+    border-radius: 20px;
+}
+
+.vid_info {
+    background: rgba(123, 237, 198, .4);
+    margin: 50px 300px;
+    padding: 50px 50px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+#fun {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}

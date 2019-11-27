@@ -1,0 +1,244 @@
+.ns_main img {
+    margin: 2em 0;
+}
+
+#headline {
+    text-align: center;
+    margin: 100px 0;
+}
+
+#headline h1 {
+    font-size: 60px;
+}
+
+#headline h1 span {
+    position: relative;
+}
+
+#headline h3 {
+    color: #686e7d;
+}
+
+#headline h1 span:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 0;
+    bottom: 5px;
+    width: auto;
+    margin: 0 auto;
+    height: 20%;
+    background: rgba(123, 237, 198, .5);
+}
+
+.ns_main {
+    margin: 0 150px;
+        
+}
+
+.ns_main p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9em
+}
+
+.ns_main h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 1em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ns_top {
+    text-align: center;
+    
+}
+
+.ns_main em {
+  color: #a5b3be;
+}
+
+.ns_main p a {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.ns_main p a span {
+    display: none;
+    position: absolute;
+    right: 100%;
+    color: #00aadd;
+}
+
+.ns_main p a::before {
+    content: '';
+    height: 20%;
+    background: #7bedc6;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0.09em;
+    left: -0.2em;
+    opacity: .5;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.ns_main p a:hover {
+  border-color: #00aadd;
+}
+
+.ns_main p a:hover span {
+
+}
+
+.ns_main p a:hover::before {
+    opacity: .5;
+    height: 70%;
+    width: 100%;
+}
+
+
+.old_land {
+    text-align: center;
+    word-spacing: 2em;
+}
+
+.old_land img {
+    
+    height: 600px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.scroll {
+    text-align: center;
+    word-spacing: 1em;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 4em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+}
+
+.scroll img {
+    border-radius: 15px;
+}
+
+#about {
+    border-radius: 25px;
+}
+
+.flows p {
+    padding-bottom: 2em;
+}
+
+.new {
+    word-spacing: 1em;
+    background-color: white;
+    margin: 0 -40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 3em;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.new img {
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 9px rgba(0, 0, 0, .3);
+}
+
+
+.button {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.lmo_btn {
+    background-color: #28c28e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 170px;
+    transition: .5s;
+    float: left;
+}
+
+.lmo_btn:hover {
+    background-color: #28c28e;
+    opacity: .6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    float: left;
+}
+
+.js_btn {
+    background-color: mediumpurple;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 170px;
+    transition: .5s;
+    float: right;
+}
+
+.js_btn:hover {
+    background-color: mediumpurple;
+    opacity: .6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    float: right;
+}
