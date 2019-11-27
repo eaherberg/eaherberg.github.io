@@ -36,7 +36,7 @@ h3 {
     letter-spacing: 3px;
     font-weight: 600;
     line-height: 10px;
-    word-spacing: .5em;
+    word-spacing: .2em;
 }
 
 p {
@@ -201,8 +201,7 @@ Lawnmo
 
 .lawnmo {
     text-align: left;
-    min-height: 500px;
-    padding-bottom: 100px;
+    min-height: 470px;
 }
 
 
@@ -263,7 +262,6 @@ Lawnmo
     background-color: #8be28b;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 1em;
     margin-right: 50px;
     background-size: 280px;
     background-position: 200px 150px;
@@ -291,17 +289,12 @@ More work
 
 
 .more_work {
-    height: 60vh;
-    margin-bottom: 200px;
+    height: 900px;
+    margin-top: 250px;
 }
 
 .more_work h2 {
-    margin-bottom: 100px;
-}
-
-.links_hero {
-    text-align: center;
-    word-spacing: 3em;
+    margin-top: 2em;
 }
 
 .links_hero img {
@@ -317,11 +310,11 @@ More work
 }
 
 .links_hero a:hover {
-    opacity:;
+    display: block;
 }
 
-.square_1 {
-    background-color: cyan;
+#ns {
+    background-color: #00aadd;
     border-radius: 2%;
     float: left;
     width: 600px;
@@ -329,12 +322,13 @@ More work
     overflow: hidden;
 }
 
-.square_1 img {
-    text-align: center;
+#ns img {
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-
-.square_2 {
-    background-color: cyan;
+#js {
+    background-color: mediumpurple;
     border-radius: 2%;
     float: right;
     width: 600px;
@@ -342,7 +336,61 @@ More work
     overflow: hidden;
 }
 
-.square_2 img {
-    text-align: center;
+#js img {
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
+table {
+    table-layout: auto;
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    white-space: nowrap;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#proj a em {
+  color: #a5b3be;
+}
+
+#proj a {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+
+#proj a::before {
+    content: '';
+    height: 20%;
+    background: #7bedc6;
+    width: 310px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0.09em;
+    left: -0.2em;
+    opacity: .5;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.4s ease;
+}
+
+#proj a:hover {
+  border-color: #00aadd;
+}
+
+#proj a:hover::before {
+    opacity: .5;
+    height: 70%;
+    width: 310px;
+}
