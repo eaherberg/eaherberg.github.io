@@ -65,7 +65,9 @@ hr {
 */
 
 .top_box {
-    margin: 100px 150px;
+    max-width: 1080px;
+    min-width: 500px;
+    margin: 100px auto;
 }
 
 #erik, 

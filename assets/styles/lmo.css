@@ -5,64 +5,53 @@ hr {
 }
 
 .lmo_main {
-    margin: 0 150px;   
+    padding-top: 100px;
+    max-width: 1080px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;   
 }
 
 .lmo_main p {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 2em;
-    font-size: .9em;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    width: 100%;
 }
 
 .lmo_main h2 {
-    width: 80%;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
     text-align: left;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 10px;
 }
 
 .lmo_main img {
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #headline {
+    font-weight: 200;
     text-align: center;
-    margin: 100px 0;
-}
-
-#headline h1 {
-    font-size: 60px;
-}
-
-#headline h1 span {
-    position: relative;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0 auto 50px auto;
 }
 
 #headline h3 {
-    color: #686e7d;
-}
-
-#headline h1 span:after {
-    content: '';
-    position: absolute;
-    left: 15px;
-    right: 0;
-    bottom: 5px;
-    width: auto;
-    margin: 0 auto;
-    height: 20%;
-    background: rgba(40, 194, 142, .5);
+    color: #27c38e;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
 }
 
 .lmo_top {
     text-align: center;
-    padding-bottom: 100px;
-    
+    margin: 0 auto;
+    width: 
 }
 
 #main_hero img {
@@ -73,10 +62,22 @@ hr {
     margin-bottom: 100px;
 }
 
+.flows {
+    margin: 50px auto;
+    width: 100%;
+}
+
 .onboard_flow {
     text-align: center;
     display: grid;
     word-spacing: 3em;
+    margin: auto;
+    width: 100%;
+}
+
+.zoom {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .onboard_flow img {
@@ -84,30 +85,33 @@ hr {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: .4s;
 }
 
 .onboard_flow img:hover {
-    transform: scale(2.5);
+    transform: scale(1.5);
     transition-duration: .2s;
     cursor: zoom-in;
 }
 
 .lmo_comp {
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 
 .lmo_comp img {
-    width: 70%;
-    padding-bottom: 3em;
+    max-width: 800px;
+    padding-bottom: 20px;
+    
 }
 
 .sg_hero {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .branding {
@@ -121,30 +125,26 @@ hr {
     border-radius: 20px;
 }
 
+.styleguide {
+    margin: 50px auto;
+    width: 100%;
+}
+
 .guide_main {
     background-color: #fff;
-    padding-bottom: 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .colors {
-    background-color: #fff;
-    border-radius: 20px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1240px;
-    padding: 20px 0;
+    max-width: 1100px;
 }
 
 .icon_type {
-    display: inline-block;
-    word-spacing: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin: 0 auto;
     width: 100%;
-    margin-top: 3em;
 }
 
 .icon_type img {
@@ -158,11 +158,6 @@ hr {
     text-align: center;
 }
 
-.bot_hero img {
-    height: 750px;
-    margin-top: 100px;
-}
-
 .button {
     text-align: center;
     padding-top:  100px;
@@ -170,20 +165,18 @@ hr {
 
 .li_btn {
     background-color: #008cc9;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
-    font-size: 26px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 450px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 170px;
+    border-radius: 180px;
     transition: .5s;
     float: left;
 }
@@ -191,12 +184,12 @@ hr {
 .li_btn:hover {
     background-color: #008cc9;
     opacity: .6;
-    font-family: 'Source Sans Pro', sans-serif;
+   font-family: "Lucinda", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 450px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -208,31 +201,30 @@ hr {
 
 .ns_btn {
     background-color: rgba(123, 237, 198, 1);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
-    font-size: 26px;
-    letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 170px;
+    border-radius: 180px;
     transition: .5s;
     float: right;
 }
 
 .ns_btn:hover {
-    background-color: rgba(123, 237, 198, 1);
-    opacity: .6;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(123, 237, 198, .5);
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;

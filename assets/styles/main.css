@@ -62,7 +62,8 @@ Body
 
 .main {
     padding-top: 100px;
-    max-width: 1100px;
+    max-width: 1080px;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
     font-size: .8em;
@@ -78,8 +79,7 @@ Banner
 .banner {
     font-family: "Courier New", Courier, monospace;
     width: 100%;
-    padding-top: 50px;
-    height: 60vh;
+    margin: 100px auto;
     line-height: 5em;
     font-size: 28px;
     text-align: left;
@@ -355,6 +355,7 @@ More work
     background-position: 200px 150px;
     width: 100%;
     max-height: 400px;
+    text-align: center;
 }
 
 .square_1 img {

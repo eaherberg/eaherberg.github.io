@@ -1,62 +1,35 @@
-.ns_main img {
-    margin: 2em 0;
-}
-
-#headline {
-    text-align: center;
-    margin: 100px 0;
-}
-
-#headline h1 {
-    font-size: 60px;
-}
-
-#headline h1 span {
-    position: relative;
-}
-
-#headline h3 {
-    color: #686e7d;
-}
-
-#headline h1 span:after {
-    content: '';
-    position: absolute;
-    left: 15px;
-    right: 0;
-    bottom: 5px;
-    width: auto;
-    margin: 0 auto;
-    height: 20%;
-    background: rgba(123, 237, 198, .5);
-}
-
 .ns_main {
-    margin: 0 150px;
-        
+    padding-top: 100px;
+    max-width: 1080px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;    
 }
 
 .ns_main p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: .9em
+    font-family: "Helvetica", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    width: 100%;
 }
 
 .ns_main h2 {
-    width: 80%;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-bottom: 1em;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 10px;
 }
 
 .ns_top {
     text-align: center;
     
 }
+
+/* BEGIN HOVER ANIMATION */
 
 .ns_main em {
   color: #a5b3be;
@@ -106,16 +79,40 @@
     width: 100%;
 }
 
+/* END HOVER ANIMATION */
+
+#headline {
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0 auto 50px auto;
+}
+
+#headline h1 {
+    font-size: 60px;
+}
+
+#headline h1 span {
+    position: relative;
+}
+
+#headline h3 {
+    color: rgba(123, 237, 198, 1);
+}
+
+.flows {
+    margin: 50px auto;
+    width: 100%;
+}
 
 .old_land {
     text-align: center;
-    word-spacing: 2em;
+    margin: 0 auto 20px auto;
+    width: 100%;
 }
 
 .old_land img {
-    
-    height: 600px;
-    width: auto;
     border-radius: 10px;
 }
 
@@ -124,41 +121,30 @@
     word-spacing: 1em;
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 4em;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 90%;
-}
-
-.scroll img {
-    border-radius: 15px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
 }
 
 #about {
-    border-radius: 25px;
-}
-
-.flows p {
-    padding-bottom: 2em;
+    border-radius: 10px;
 }
 
 .new {
-    word-spacing: 1em;
     background-color: white;
-    margin: 0 -40px;
+    width: 100%;
+    margin: 20px auto;
     border-radius: 20px;
     text-align: center;
-    margin-bottom: 3em;
-    max-width: 90%;
     margin-right: auto;
-    margin-left: auto;
+    padding: 20px 10px;
 }
 
 .new img {
     text-align: center;
-    width: 500px;
+    height: 250px;
     border-radius: 5px;
-    box-shadow: 5px 3px 9px rgba(0, 0, 0, .3);
+    padding: 10px;
 }
 
 
@@ -169,14 +155,14 @@
 
 .lmo_btn {
     background-color: #28c28e;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
     font-size: 26px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 400px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -190,12 +176,12 @@
 .lmo_btn:hover {
     background-color: #28c28e;
     opacity: .6;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 400px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -207,14 +193,14 @@
 
 .js_btn {
     background-color: mediumpurple;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
     font-size: 26px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 400px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -228,12 +214,12 @@
 .js_btn:hover {
     background-color: mediumpurple;
     opacity: .6;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Lucinda", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 400px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
