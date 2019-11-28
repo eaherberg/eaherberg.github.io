@@ -17,15 +17,13 @@ body {
 h1 {
     /*font-family: 'Source Sans Pro', sans-serif;*/
     /* font-family: 'Courier New'; */
-    font-family: 'Playfair Display', serif;
     font-weight: 300;
     font-size: 1.5em;
-    word-spacing: .1em;
     line-height: 2em;
 }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 400;
     font-size: 2em;
 }
@@ -41,9 +39,10 @@ h4 {
 }
 
 p {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
     padding-bottom: 1em;
-    font-weight: 300;
-    font-size: 1.2em;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
@@ -65,19 +64,23 @@ hr {
 
 */
 
+.top_box {
+    margin: 100px 150px;
+}
+
 #erik, 
 #contact {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
 }
 
 .topbar {
-    padding-top: 100px;
-    margin: 0 150px;
+    width: 100%;
 }
 
 #erik {
     float: left;
-    font-size: 1.2em;
+    font-size: 22px;
 }
 
 #erik em {
@@ -85,6 +88,7 @@ hr {
 }
 
 #erik a {
+    font-family: "Helvetica", sans-serif;
     font-weight: 600;
     color: inherit;
     position: relative;
@@ -131,14 +135,14 @@ hr {
 
 .contact {
     float: right;
-    font-size: 1em;
+    font-size: 20px;
     word-spacing: 1em;
 }
 
 .contact a {
     color: #2f3541;
     opacity: .7;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 400;
     text-decoration: none;
 }
@@ -164,7 +168,7 @@ Footer
 */
 
 footer {
-    margin-top: 100px;
+    margin: 0 150px;
 }
 
 #copy {
@@ -179,20 +183,16 @@ footer {
 
 .bot_bar {
     padding-top: 1em;
-    margin: 0 150px;
-}
-
-.bot_bar p {
-    padding-bottom: 3em;
+    width: 100%;
 }
 
 #bot_nav {
     float: right;
+    font-size: 22px;
 }
 
 #bot_nav img {
     opacity: 0.5;
-    width: 1em;
 }
 
 #bot_nav img:hover {
@@ -201,16 +201,12 @@ footer {
 }
 
 #bot_nav a {
-    margin-left: 15px;
-    background-color: none;
-    margin-left: 1em;
-}
-#bot_nav a {
     font-weight: 600;
     color: inherit;
     position: relative;
     z-index: 1;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 #bot_nav a span {
