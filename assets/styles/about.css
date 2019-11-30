@@ -11,6 +11,8 @@
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -31,30 +33,31 @@
 
 
 #pitch {
-    max-width: 750px;
+    width: 100%;
     font-family: "Helvetica", sans-serif;
     font-weight: 200;
     margin-left: auto;
     text-align: left;
-    font-size: 36px;
+    font-size: 28px;
     padding-bottom: 10px;
-    line-height: 70px;
+    line-height: 60px;
 }
 
 .me {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    background-size: 500px auto;
+    background-size: 400px auto;
     background: url(/assets/images/about/erik_hero.jpg) no-repeat;
-    width: 500px;
+    width: 400px;
     display: inline-block;
     background-position: right;
+    float: right;
 }
 
 .me:hover {
     background: url(/assets/images/about/erik_ollie.jpg) no-repeat;
-    background-size: 500px auto;
+    background-size: 400px auto;
     background-position: bottom center;
     cursor: crosshair;
 }
@@ -161,6 +164,7 @@
 
 table {
     table-layout: auto;
+    width: 100%;
 }
 
 td {
@@ -170,10 +174,11 @@ td {
 
 .career img {
     padding-bottom: 1em;
-    height: 80px;
+    max-height: 80px;
     width: auto;
     text-align: center;
-}
+    max-width: auto;
+;}
 
 #uw img {
     height: 70px;
@@ -226,8 +231,9 @@ li {
 
 iframe {
     height: 522px;
-    width: 928px;
+    max-width: 928px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .vid_info {

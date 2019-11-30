@@ -68,6 +68,7 @@ hr {
     max-width: 1080px;
     min-width: 500px;
     margin: 100px auto;
+    padding: 0 10px;
 }
 
 #erik, 
@@ -171,7 +172,10 @@ Footer
 */
 
 footer {
-    margin: 0 150px;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px;
 }
 
 #copy {
@@ -187,7 +191,6 @@ footer {
 .bot_bar {
     padding-top: 1em;
     width: 100%;
-    margin: 0 auto;
 }
 
 #bot_nav {
