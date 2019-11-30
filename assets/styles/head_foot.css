@@ -68,7 +68,9 @@ hr {
     max-width: 1080px;
     min-width: 500px;
     margin: 100px auto;
-    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #erik, 
