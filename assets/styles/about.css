@@ -5,7 +5,7 @@
 }
 
 .story {
-    padding-top: 100px;
+    padding-top: 0px;
     max-width: 1080px;
     min-width: 500px;
     margin-left: auto;
@@ -251,4 +251,43 @@ iframe {
     font-family: "Courier New", monospace;
     font-weight: 600;
     text-decoration: underline;
+}
+
+.button {
+    text-align: center;
+    padding-top:  100px;
+}
+
+.li_btn {
+    background-color: #008cc9;
+    font-family: "Lucinda", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
+    transition: .5s;
+}
+
+.li_btn:hover {
+    background-color: #008cc9;
+    opacity: .6;
+   font-family: "Lucinda", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 180px;
 }
