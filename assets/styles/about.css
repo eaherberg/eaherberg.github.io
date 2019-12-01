@@ -28,36 +28,33 @@
 .blurb {
     margin: 100px auto 0 auto;
     width: 100%;
-    column-count: 2;
 }
 
 
 #pitch {
     width: 100%;
     font-family: "Helvetica", sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     margin-left: auto;
-    text-align: left;
-    font-size: 28px;
-    padding-bottom: 10px;
-    line-height: 60px;
+    font-size: 22px;
 }
 
 .me {
-    margin-left: auto;
+    margin-left: 800px;
     margin-right: auto;
     border-radius: 25px;
-    background-size: 400px auto;
+    background-size: 300px auto;
     background: url(/assets/images/about/erik_hero.jpg) no-repeat;
-    width: 400px;
+    width: 300px;
     display: inline-block;
     background-position: right;
     float: right;
+    
 }
 
 .me:hover {
     background: url(/assets/images/about/erik_ollie.jpg) no-repeat;
-    background-size: 400px auto;
+    background-size: 300px auto;
     background-position: bottom center;
     cursor: crosshair;
 }
@@ -73,7 +70,7 @@
 }
 
 .reflection {
-    margin: 20px auto 0 auto;
+    margin: auto;
     width: 100%;
 }
 
