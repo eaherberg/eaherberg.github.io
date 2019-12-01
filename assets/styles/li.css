@@ -19,26 +19,28 @@
 
 #headline h3 {
     color: #008cc9;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
 
 
 .li_main p {
-    font-family: "Helvetica", sans-serif;
-    font-weight: 200;
+    font-family: Lora,Georgia,serif;
+    font-weight: 100;
     font-size: 22px;
     width: 100%;
+    color: #505a6a;
 }
 
 .li_main h2 {
-    font-family: "Helvetica", sans-serif;
-    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     font-size: 28px;
     padding-bottom: 10px;
+    color: #2f353e;
 }
 
 .li_top {

@@ -9,26 +9,27 @@ body {
     font-weight: 300;
     color: #2f3541;
     background: #f7f7f7;
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Source+Sans+Pro:400,600&display=swap');
 }
 
 h1 {
     /*font-family: 'Source Sans Pro', sans-serif;*/
     /* font-family: 'Courier New'; */
-    font-family: "Courier New", Courier, monospace;
-    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
     font-size: 16px;
     line-height: 2em;
 }
 
 h2 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1em;
 }
 
 h3 {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 3px;
@@ -37,7 +38,7 @@ h3 {
 }
 
 p {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
     font-size: 22px;
     line-height: 1.8em;
@@ -78,13 +79,14 @@ Banner
 */
 
 .banner {
-    font-family: "Courier New", Courier, monospace;
-    width: 100%;
+    font-family: 'Playfair Display', serif;
+    width: 90%;
     margin: 100px auto;
-    line-height: 5em;
-    font-size: 28px;
+    line-height: 3em;
+    font-size: 22px;
     text-align: left;
-    max-height: 50%;
+    max-height: 60%;
+    font-weight: 100;
 }
 
 .banner span {
@@ -94,13 +96,21 @@ Banner
 }
 
 .banner a {
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 200;
     color: inherit;
     position: relative;
     z-index: 1;
     text-decoration: none;
+}
+
+#uw a {
+    color: #4f5bd5;
+}
+
+#fb a {
+    color: rgb(24, 119, 242);
 }
 
 /* 
@@ -111,18 +121,22 @@ LinkedIn
 
 .linkedin {
     text-align: left;
+    width: 90%;
+    margin: auto;
 }
 
 .li_about p {
-    font-family: "Helvetica", sans-serif;
+    font-family: Lora,Georgia,serif;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
+    margin: auto;
+    color: #505a6a;
 }
 
 .linkedin h3 {
     color: #008cc9;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
 
@@ -135,7 +149,7 @@ LinkedIn
 .li_box img {
     padding-top: 1em;
     transition: .5s;
-    width: 80%;
+    width: 70%;
 }
 
 .li_box img:hover {
@@ -147,7 +161,7 @@ LinkedIn
 }
 
 .li_about h2 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 .li_about h3 {
@@ -163,23 +177,25 @@ LinkedIn
     background-color: #8fc5f1;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     background-size: 280px;
     background-position: 200px 150px;
     max-width: 100%;
-    max-height: 600px;
+    max-height: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .li_btn {
     background-color: #008cc9;
     font-family: "Lucinda", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 150px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -197,7 +213,7 @@ LinkedIn
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 150px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -216,21 +232,24 @@ Lawnmo
 
 .lawnmo {
     text-align: left;
+    width: 90%;
+    margin: auto;
 }
 
 .lmo_about p {
-    font-family: "Helvetica", sans-serif;
+    font-family: Lora,Georgia,serif;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 18px;
+    color: #505a6a;
 }
 
 .lawnmo h2 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 .lawnmo h3 {
     color: #28c28e;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
 
@@ -251,7 +270,7 @@ Lawnmo
     background-color: #8be28b;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     background-size: 280px;
     background-position: 200px 150px;
     max-width: 100%;
@@ -269,7 +288,7 @@ Lawnmo
     font-family: "Lucinda", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     color: #ffffff;
     padding: 10px 20px;
@@ -280,12 +299,12 @@ Lawnmo
     background-color: #28c28e;
     font-family: "Lucinda", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 150px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -303,7 +322,7 @@ Lawnmo
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
-    width: 150px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;

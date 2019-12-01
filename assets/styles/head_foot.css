@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 2em;
 }
@@ -39,7 +39,7 @@ h4 {
 }
 
 p {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding-bottom: 1em;
     font-size: 16px;
@@ -75,7 +75,7 @@ hr {
 
 #erik, 
 #contact {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -94,7 +94,7 @@ hr {
 }
 
 #erik a {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: inherit;
     position: relative;
@@ -148,7 +148,7 @@ hr {
 .contact a {
     color: #2f3541;
     opacity: .7;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Gill Sans", sans-serif;
     font-weight: 400;
     text-decoration: none;
 }

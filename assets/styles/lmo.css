@@ -15,20 +15,22 @@ hr {
 }
 
 .lmo_main p {
-    font-family: "Helvetica", sans-serif;
-    font-weight: 200;
+    font-family: Lora,Georgia,serif;
+    font-weight: 100;
     font-size: 22px;
     width: 100%;
+    color: #505a6a;
 }
 
 .lmo_main h2 {
-    font-family: "Helvetica", sans-serif;
-    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     font-size: 28px;
     padding-bottom: 10px;
+    color: #2f353e;
 }
 
 .lmo_main img {
@@ -46,7 +48,7 @@ hr {
 
 #headline h3 {
     color: #27c38e;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
 
@@ -78,13 +80,10 @@ hr {
 
 .zoom {
     margin: 0 auto;
-    width: 100%;
 }
 
 .onboard_flow img {
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: .4s;
 }
@@ -110,6 +109,7 @@ hr {
 
 .sg_hero {
     text-align: center;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -135,6 +135,7 @@ hr {
     background-color: #fff;
     border-radius: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .colors {
