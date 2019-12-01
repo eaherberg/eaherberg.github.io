@@ -92,6 +92,7 @@
     position: relative;
     z-index: 1;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .reflection a span {
@@ -115,6 +116,7 @@
     -moz-transition: all 0.4s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.4s ease;
+    font-weight: 400;
 }
 
 .reflection a:hover {
@@ -129,6 +131,7 @@
     opacity: .5;
     height: 70%;
     width: 100%;
+    font-weight: 400;
 }
 
 
