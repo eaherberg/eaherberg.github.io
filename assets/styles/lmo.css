@@ -1,7 +1,5 @@
 hr {
-    padding-top: 10px;
-    color: black;
-    
+  border: 1px solid #e7e7e7;
 }
 
 .lmo_main {
@@ -55,7 +53,7 @@ hr {
 .lmo_top {
     text-align: center;
     margin: 0 auto;
-    width: 
+    width: 100%;
 }
 
 #main_hero img {
@@ -67,7 +65,8 @@ hr {
 }
 
 .flows {
-    margin: 50px auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 100%;
 }
 
@@ -79,7 +78,11 @@ hr {
 }
 
 .zoom {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    word-spacing: 2em;
+    text-align: center;
 }
 
 .onboard_flow img {
@@ -119,23 +122,22 @@ hr {
     height: 260px;
     padding-top: 10px;
     background-color: #fff;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
     border-radius: 20px;
 }
 
-.styleguide {
-    margin: 50px auto;
-    width: 100%;
-}
-
 .guide_main {
+    margin: 50px auto 100px auto;
+    width: 100%;
     background-color: #fff;
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .colors {
@@ -148,7 +150,7 @@ hr {
 }
 
 .icon_type {
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
 }
 
@@ -163,15 +165,18 @@ hr {
     text-align: center;
 }
 
+
+
 .button {
     text-align: center;
-    padding-top:  100px;
 }
 
 .li_btn {
     background-color: #008cc9;
     font-family: "Lucinda", sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 10px 20px;
@@ -181,29 +186,13 @@ hr {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 180px;
+    border-radius: 170px;
     transition: .5s;
 }
 
 .li_btn:hover {
-    background-color: #008cc9;
+    background-color: #28c28e;
     opacity: .6;
-   font-family: "Lucinda", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 10px 20px;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 180px;
-}
-
-.ns_btn {
-    background-color: rgba(123, 237, 198, 1);
     font-family: "Lucinda", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -216,23 +205,4 @@ hr {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 180px;
-    transition: .5s;
-    float: right;
-}
-
-.ns_btn:hover {
-    background-color: rgba(123, 237, 198, .5);
-    font-family: "Lucinda", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 10px 20px;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 180px;
-    float: right;
 }
