@@ -6,7 +6,7 @@
 
 .story {
     max-width: 1080px;
-    min-width: 500px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
