@@ -125,7 +125,8 @@ h3{
 /* ----------------- TEAM ---------------------- */
 
 .team {
-    background: white;
+    background: blueviolet;
+    color: white;
     max-width: 400px;
     max-height: 300px;
     border-radius: 10px;
@@ -133,7 +134,7 @@ h3{
 }
 
 .team h3 {
-    color: #1caa93;
+    color: orange;
 }
 
 /* ----------------- JIGSAW ------------------- */
