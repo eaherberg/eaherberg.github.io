@@ -1,0 +1,197 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+/*--------------------------------------------------------------*/
+/*LET'S BEGIN*/
+
+html{
+	height:100%;
+  /* background-color: #fbf1f1; */
+  background: #ded4cb;
+
+}
+
+body {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+	color: #323232;
+	line-height: 1.7em;
+	font-size: 13pt;
+	margin: 20px 100px;
+	width:100%;
+	height: 100%;
+	min-height: 100%;
+	cursor:default;
+}
+
+p {
+    max-width: 800px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+::selection {
+	background: black;
+	color:white;
+}
+
+/*--------------------------------------------------------------*/
+/*DEFINE SECTIONS & CENTERING*/
+
+.responsive{
+	margin:0 auto;
+    padding-top: 120px;
+	width:90%;
+	max-width: 840px;
+
+}
+
+/*--------------------------------------------------------------*/
+/*ABOUT*/
+
+.about{
+    margin: auto;
+}
+
+.aboutlinks {
+    border-bottom: 1px solid #00bfff;
+    font-weight: 500;
+}
+
+/*--------------------------------------------------------------*/
+
+/*NAV*/
+
+
+/*--------------------------------------------------------------*/
+/*HYPERLINKS */
+
+a{
+	text-decoration: none;
+	color: inherit;
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------------*/
+/*HEADER STYLES*/
+
+h1 {
+    font-size:36pt;
+    line-height: 1.7em;
+	font-family: 'Playfair Display', serif;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    max-width: 600px;
+    
+}
+
+h2 {
+	font-size: 24pt;
+    line-height: 1.7em;
+	font-family: 'Playfair Display', serif;
+    max-width: 600px;
+    padding-top: 80px;
+}
+
+
+
+h3{
+	font-size: 12pt;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+#survey {
+    font-weight: 400;
+}
+
+/* ----------------- TEAM ---------------------- */
+
+.team {
+    background: white;
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.team h3 {
+    color: #1caa93;
+}
+
+/* ----------------- JIGSAW ------------------- */
+
+#jigsaw a {
+    font-family: 'Playfair Display', serif;
+    font-size: 36pt;
+    color: linear-gradient(90deg, rgba(125,18,181,1) 0%, rgba(9,9,121,1) 35%, rgba(255,134,0,1) 100%);
+    text-decoration: none;
+    font-weight: 100;
+    float: left;
+}
+
+#jigsaw span {
+    background: linear-gradient(90deg, rgba(125,18,181,1) 0%, rgba(255,134,0,1) 46%, rgba(28,170,147,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top_box {
+    width: 85%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.topbar {
+    width: 100%;
+}
+
+.navbar {
+    float: right;
+    font-size: 12pt;
+    word-spacing: 1em;
+}
+
+.navbar a {
+    color: blueviolet;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar a:before {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+    opacity: 1;
+}
+
+.navbar a:active {
+    color: blueviolet;
+}
+
+footer {
+    height: 100px;
+}
