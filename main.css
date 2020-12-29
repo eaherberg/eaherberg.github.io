@@ -1,0 +1,310 @@
+/* BEGIN WW CSS */
+
+      body{
+          font-family: 'Noto Sans JP', sans-serif;
+          margin:0;
+          overflow:hidden;
+          font-weight: 300;
+          color: #464646;
+      }
+      *{
+          box-sizing: border-box;
+      }
+      h1,h2,h3,h4,h5,h6{
+          font-family: 'Playfair Display', serif;
+          font-weight: 400;
+      }
+      html,body,#browser{
+          position: absolute;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
+          background-color: #f7f7f7;
+      }
+
+
+header {
+    height: 100vh;
+}
+
+      #namehead {
+          color: #464646;
+      }
+      #browser{
+          position:fixed;
+          overflow-y:auto;
+      }
+      #browser>*{
+          margin-left:auto;
+          margin-right:auto;
+          max-width:880px;
+      }
+      #lightbox header>.info{
+          max-width:400px;
+          margin-left:auto;
+          margin-right:auto;
+      }
+      /*#lightbox header>.info.featured{
+        max-width:840px;
+      }*/
+      #lightbox.expanded header>.info, #lightbox.showing header>.info{
+          max-width:600px;
+      }
+      #lightbox header{
+          margin:0;
+          max-width:none;
+      }
+      #browser header{
+          padding-left:20px;
+          padding-right:20px;
+          padding-top:7%;
+          padding-bottom:10%;
+          position:relative;
+      }
+      #browser header h1{
+          font-size:4em;
+      }
+      #browser footer{
+          padding-bottom:15%;
+      }
+      #browser header .helloportrait{
+          width:50%;
+          float:right;
+          position:relative;
+          top:-160px;
+          left:-50px;
+          max-width:300px;
+          z-index: -100;
+      }
+      #browser header .hellobio {
+          margin-bottom:7%;
+          line-height: 1.5em;
+          color: #464646;
+      }
+      #browser header a{
+          text-decoration: underline;
+          color:#7796F2;
+      }
+      .resumelink{
+        /*font-size:0.9em;*/
+      }
+      #browser header a:visited{
+        color:#7796F2;
+      }
+      #browser header a:hover{
+        opacity:0.8;
+      }
+      #browser header a:active{
+        opacity:0.5;
+      }
+      #browser header a.hiddenlink{
+        color:black;
+        text-decoration: none;
+      }
+      #browser header a.hiddenlink:visited{
+        color:black;
+      }
+      #browser header a.hiddenlink:hover{
+        color:#7796F2;
+        text-decoration: underline;
+        opacity:0.8;
+      }
+      #browser header a.hiddenlink:active{
+        color:#7796F2;
+        text-decoration: underline;
+        opacity:0.5;
+      }
+      .contactlinks a svg{
+        pointer-events: none;
+      }
+      .contactlinks a path{
+        fill:#7796F2;
+      }
+      .contactlinks a{
+        border:5px solid transparent;
+        display:inline-block;
+        height:40px;
+        width:40px;
+        font-size: 0.9em;
+        /*margin-right:0.4em;*/
+        /*font-style: italic;*/
+        opacity:0.7;
+      }
+      .contactlinks a:first-child{
+        margin-left:-5px;
+      }
+
+      .hellobio {
+        max-width:550px;
+          font-size: 13px;
+      }
+
+header a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* END OF WW CSS */
+
+/* ARROW ANIMATION */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+#insta span {
+    background: -webkit-linear-gradient(315deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 24%, rgba(214,41,118,1) 42%, rgba(253,29,29,1) 57%, rgba(79,91,213,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a#insta {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+    position: relative;
+    z-index: 1;
+}
+
+#uw {
+    font-family: 'Playfair Display', serif;
+    color: #4f5bd5;
+}
+
+#browser a {
+    text-decoration: none;
+}
+
+
+.arrow{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 5%
+}
+
+.arrow span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #464646;
+    border-right: 3px solid #464646;
+    transform: rotate(45deg);
+    margin: 5%;
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px,-10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(10px,10px);
+    }
+}
+
+
+/* BEGIN MY CSS */
+
+div.responsive img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+    position: relative;
+  padding: 18px 20px;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #464646;
+}
+
+.imgContainer:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    width: 85%;
+}
+
+.text p {
+    font-size: .7em;
+}
+
+.text h2 {
+    font-size: 1.8em;
+}
+
+#love {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    text-align: center;
+}
+
+/* END MY CSS */
+
+/* JS ANIMATION */
