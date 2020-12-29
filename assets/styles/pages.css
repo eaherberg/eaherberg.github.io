@@ -1,0 +1,309 @@
+/******** BEGIN CORE CSS ********/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 2% 5% 5% 5%;
+    margin: 0;
+    overflow-y: visible;
+}
+
+#site-header {
+    background-color: inherit;
+    padding: 2% 0;
+}
+
+#site-header h1 {
+    margin-bottom: 0;
+    max-width: 500px;
+}
+
+.site-content {
+    margin: 5% 5%;
+    color: #464646;
+    line-height: 1.5em;
+}
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 5%;
+}
+
+h4 {
+    
+    
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+p {
+    max-width: 650px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+
+li {}
+
+a {
+    font-weight: 500;
+    text-decoration: none; 
+    cursor: help;
+}
+
+b {}
+
+i {
+    font-weight: 500;
+}
+
+img {
+    max-width: 650px;
+    margin: 5% 0;
+}
+
+/******** END CORE CSS ********/
+
+/******** BEGIN PAGES CSS ********/
+
+#back a {
+    color: white;
+    opacity: .5;
+      -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+#back a:hover {
+    opacity: 1;
+}
+
+.button {
+    border: 2px solid;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 150px
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-container {
+    margin: 5% 0;
+}
+
+
+#project{
+    padding: 0;
+}
+
+.gap {
+    height: 60px;
+}
+
+#love {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+/******** END PAGES CSS ********/
+
+/******** BEGIN RESPONSIVE IMAGES ********/
+
+.column {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+
+}
+
+.row {
+    max-width: 650px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .final.column {
+    width: 100%;
+  }
+}
+
+
+
+
+/******** END RESPONSIVE IMAGES ********/
+
+
+
+/******** STROLL CSS *********/
+
+.stats {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2em;
+    border-color: #C56DDF;
+    display: flex;
+    max-width: 100%;
+    border: 1px solid #C56DDF;
+}
+
+.stats tr {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.stats td {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    padding-right: 10px;
+    max-width: 80%;
+}
+
+#percent {
+    font-size: 5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #C56DDF;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  #percent {
+    width: 100%;
+      font-size: 3em;
+      padding-right: 10px;
+  }
+}
+
+.features {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2em;
+    border-color: #C56DDF;
+    display: flex;
+    max-width: 650px;
+}
+
+.features tr {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.features td {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    padding-right: 10px;
+}
+
+#type {
+    font-size: 5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #C56DDF;
+}
+
+.iterations p b {
+    font-size: .8em;
+}
+
+#iteration {
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+
+/******** FADE ANIMATIONS ********/
+/*
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+
+/********* MEDIA QUERIES *********/
+/*
+/* Large desktop 
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop 
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet 
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down 
+@media (max-width: 480px) { ... }
+*/
