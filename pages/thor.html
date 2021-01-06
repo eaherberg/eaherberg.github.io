@@ -62,16 +62,26 @@
                 
             <div class="process">
             
-                <h2>Animation</h2>
+                <h2>Process</h2>
 
                 <p>To bring my drawings to life, I scanned them into Photoshop, added color, and then created a series of images where I super-imposed various mouth-shapes.</p>
                 
                 <p>I then took the images and did a stop-animation style movie in iMovie to come up with the final cartoon. I also wrote and recorded a fun theme song to uphold the feel of Adventure Time in the final product.</p>
                 
+              </div>
+                
+            <div class="gap"></div> 
+                
+            <div class="tor-final">
+                
+            <h2>Final Product</h2>    
+                
+            <p>Here's some fun examples of my illustrations and how they looked in motion.</p>
+                
                 
                 <div class="row">
                     <div class="column">
-                        <img src="/assets/images/thor/guitar.png" alt="illustration of character playing guitar" style="width:80%">
+                        <img src="/assets/images/thor/guitar.png" alt="illustration of character playing guitar" class="illustration">
                     </div>
                     <div class="column">
                         <img src="/assets/images/thor/guitar.gif" alt="animation of character playing guitar" style="width:100%">
@@ -80,16 +90,16 @@
                 
                 <div class="row">
                     <div class="column">
-                        <img src="/assets/images/thor/title.png" alt="illustration of cartoon title" style="width:80%">
+                        <img src="/assets/images/thor/title.png" alt="illustration of cartoon title" class="illustration">
                     </div>
                     <div class="column">
-                        <img src="/assets/images/thor/title.gif" alt="animation of cartoon title" style="width:110%">
+                        <img src="/assets/images/thor/title.gif" alt="animation of cartoon title" style="width:100%">
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="column">
-                        <img src="/assets/images/thor/tor-loke.png" alt="illustration of characters talking" style="width:80%">
+                        <img src="/assets/images/thor/tor-loke.png" alt="illustration of characters talking" class="illustration">
                     </div>
                     <div class="column">
                         <img src="/assets/images/thor/tor-loke.gif" alt="animation of characters talking" style="width:100%">
@@ -98,7 +108,7 @@
                 
                 <div class="row">
                     <div class="column">
-                        <img src="/assets/images/thor/mom.png" alt="illustration of character that looks like a grandma" style="width:80%">
+                        <img src="/assets/images/thor/mom.png" alt="illustration of character that looks like a grandma" class="illustration">
                     </div>
                     <div class="column">
                         <img src="/assets/images/thor/mom.gif" alt="animation of character that looks like a grandma" style="width:100%">
@@ -107,12 +117,13 @@
                 
                 <div class="row">
                     <div class="column">
-                        <img src="/assets/images/thor/tor-froya.png" alt="illustration of thor dressed as froya" style="width:80%">
+                        <img src="/assets/images/thor/tor-froya.png" alt="illustration of thor dressed as froya" class="illustration">
                     </div>
                     <div class="column">
                         <img src="/assets/images/thor/tor-froya.gif" alt="animation of of thor dressed as froya" style="width:100%">
                     </div>
                 </div>
+            </div>
                 
                
             <div class="gap"></div>  
@@ -131,11 +142,6 @@
                 
                 h2 {
                     color: #E7022B;
-                }
-                
-                h4 {
-                    margin: 4% 0 0 0;
-                    color: rebeccapurple;
                 }
                     
                 a {
@@ -160,72 +166,24 @@
                 .button {
                     border-color: #E7022B;
                 }
-
-                #desktop {
-                    max-width: 650px;
+                
+                img.illustration {
+                    width: 80%;
                 }
                 
-                p#illustrations {
-                    color: #464646;
-                }
                 
-                .illustrations-img .column {
-                    float: left;
-                    width: 33.33%;
-                    padding-right: 15px;
-                    padding-top: 5%;
-
-                }
-                
-                .illustrations-img .row {
-                    max-width: 650px;
-                }
-
-                /* Clearfix (clear floats) */
-                .illustrations-img .row::after {
-                    content: "";
-                    clear: both;
-                    display: table;
-                }
-
-                /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-                @media screen and (max-width: 650px) {
-                  .illustrations-img .column {
+                @media screen and (max-width: 600px) {
+                    img.illustration {
                     width: 100%;
-                  }
-                }
-                
-                #logo-img {
-                    margin-top: 0;
-                    max-width: 70%;
-                }
-                    
-                .change {
-                    font-size: .8em;
-                    color: rebeccapurple;
-                    max-width: 400px;
-                }
-                
-                .iterations b {
-                    color: #E7022B;
-                }
-                
-                .p-description {  
-                    max-width: 500px;
-                    max-height: 100%;
-                    margin-top: 50%;
-                }
-                
-                @media screen and (max-width: 650px) {
-                    .p-description {
-                        width: 100%;
-                        margin-top: 0;
                     }
                 }
                 
-                .final img {
-                    max-width: 250px;
+                @media screen and (max-width: 600px) {
+                    .column img {
+                    width: 100%;
+                    }
                 }
+
                 
             </style>
                 
@@ -233,7 +191,7 @@
 
             <footer></footer>
                 
-                </div>
+                
             </div>     
             <p id="love">coded with 💛 by Anders</p>
         </div>

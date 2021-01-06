@@ -175,6 +175,11 @@ a#insta {
     color: #4f5bd5;
 }
 
+#ls {
+    font-family: 'Playfair Display', serif;
+    color: #2B545D;
+}
+
 #browser a {
     text-decoration: none;
 }
