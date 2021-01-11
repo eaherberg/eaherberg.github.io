@@ -30,6 +30,7 @@ header {
 
       #namehead {
           color: #464646;
+          line-height: 2em;
       }
       #browser{
           position:fixed;
