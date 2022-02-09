@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" media="all" href="main.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+	<title>Whistler Trip</title>
+</head>
+
+	<body>
+        <div class="runsHeader">
+            <section class="bg">
+                <h1><a href="index.html">&#8592;</a> Runs</h1>
+            </section>
+            <img src="whistler_assets/hero2.png" class="image">
+        </div>
+        
+        <div class="dropdowns">
+        <button type="button" class="collapsible"><h3 id="dropTitle">Whistler Blackcomb: Green</h3></button>
+            <div class="content">
+                <ul>
+                    <li>Green Line*</li>
+                    <li>7th Avenue</li>
+                    <li>Expressway</li>
+                    <li>Jersey-Cream Road</li>
+                    <li>Easy Out</li>
+                    <li>Sunset Blvd</li>
+                </ul>
+            </div>
+        <button type="button" class="collapsible"><h3 id="dropTitle">Whistler Blackcomb: Blue</h3></button>
+            <div class="content">
+                <ul>
+                    <li>Upper Cloud Nine</li>
+                    <li>Lower Cloud Nine</li>
+                    <li>Sluiceway</li>
+                    <li>Upper Panorama</li>
+                    <li>Lower Panorama</li>
+                    <li>Hugh’s Heaven</li>
+                    <li>Blue Line*</li>
+                    <li>Jersey Cream</li>
+                    <li>Crystal Glide</li>
+                    <li>Rock’n Roll</li>
+                    <li>Buzzcutt</li>
+                    <li>Trapline</li>
+                    <li>Backstage Pass</li>
+                    <li>Ridge Runner</li>
+                    <li>Glacier Road</li>
+                    <li>Honeycomb</li>
+                    <li>Springboard</li>
+                    <li>Cruiser</li>
+                    <li>Stoker</li>
+                    <li>Espresso</li>
+                    <li>Slingshot</li>
+                    <li>Countdown</li>
+                    <li>Dale’s Way</li>
+                    <li>Racer Alley</li>
+                    <li>Lower Gear Jammer</li>
+                    <li>Upper Mainline</li>
+                    <li>Lower Merlin’s</li>
+                    <li>Lower Cruiser</li>
+                    <li>Grub Stake</li>
+                    <li>School Marm</li>
+                    <li>Shorthorn</li>
+                    <li>Zig Zag</li>
+                    <li>Twist and Shout</li>
+                </ul>
+            </div>
+        <button type="button" class="collapsible"><h3 id="dropTitle">Creekside: Green</h3></button>
+            <div class="content">
+            <ul>
+                <li>Matthew’s Traverse</li>
+                <li>Burnt Stew Trail</li>
+                <li>Pika’s Traverse</li>
+                <li>Pony Trail</li>
+                <li>Ego Bowl</li>
+                <li>Upper Whiskey Jack</li>
+                <li>Bear Club</li>
+                <li>Marmot</li>
+                <li>Sidewinder</li>
+                <li>Expressway</li>
+                <li>Lower Olympics</li>
+            </ul>
+            </div>
+        <button type="button" class="collapsible"><h3 id="dropTitle">Creekside: Blue</h3></button>
+            <div class="content">
+                <ul>
+                    <li>Upper Peak to Creek</li>
+                    <li>T-Bar Run</li>
+                    <li>Headwall</li>
+                    <li>Ridge Run</li>
+                    <li>Highway 86</li>
+                    <li>Franz’s</li>
+                    <li>Lower Franz’s</li>
+                    <li>Orange Peel</li>
+                    <li>Banana Peel</li>
+                    <li>Rabbit Tracks</li>
+                    <li>Kadenwood</li>
+                    <li>Harmony Ridge</li>
+                    <li>Harmony Piste</li>
+                    <li>Jeff’s Ode to Joy</li>
+                    <li>Tokum</li>
+                    <li>Ptarmigan</li>
+                    <li>Enchanted Forest</li>
+                    <li>The Glades</li>
+                    <li>Lower Ratfink</li>
+                    <li>Crossroads</li>
+                </ul>
+            </div>
+        </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+        
+</body>
+</html>
