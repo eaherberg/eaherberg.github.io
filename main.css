@@ -97,6 +97,10 @@ img {
         max-width: 100%;
     }
     
+    .runsHeader img {
+        max-width: 100%;
+    }
+    
     .column {
     flex: 100%;
     max-width: 100%;
@@ -182,15 +186,42 @@ img {
 .tasks {
     text-align: center;
     display: inline-grid;
+    margin: auto;
 }
 
 .trips section {
     margin-bottom: 16px;
 }
 
-.hbd {
+.tasks img {
+    max-width: 100%;
     margin: auto;
-    max-width: 358px;
+}
+
+#hbd {
+    text-align: center;
+}
+
+#hbd img {
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    width: 358px;
+    margin: auto;
+}
+
+@media screen and (max-width: 390px) {
+
+.itineraryHeader img {
+        max-width: 100%;
+    }
+    
+    .tasks img {
+        max-width: 100%;
+    }
+    
+    #hbd img {
+        max-width: 90%;
+        margin: auto;
+    }
+    
 }
