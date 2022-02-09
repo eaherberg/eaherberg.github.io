@@ -122,6 +122,10 @@ img {
     word-spacing: 30px;
 }
 
+.runsHeader img {
+    max-width: 390px;
+}
+
 .runsHeader .bg {
     padding: 16px;
     background: #6188CD;
@@ -154,6 +158,17 @@ img {
   background-color: #ffffff;
     overflow: hidden;
     display: none;
+}
+
+@media screen and (max-width: 390px) {
+
+.runsHeader img {
+        max-width: 100%;
+    }
+    
+    .runsHeader .bg {
+        max-width: 100%;
+    }
 }
 
 /* END RUNS */
